@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4F392B1-E345-4DFE-B003-7A3D793A722A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net20\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Images\Back_Ground.png" />
+    <Content Include="bin\Debug\Images\gif2-optimized.gif" />
+    <Content Include="bin\Debug\Images\image3.jpg" />
+    <Content Include="bin\Debug\Images\Kanji\0000.png" />
+    <Content Include="bin\Debug\Images\Kanji\0001.png" />
+    <Content Include="bin\Debug\Images\Kanji\0002.png" />
+    <Content Include="bin\Debug\Images\Kanji\0003.png" />
+    <Content Include="bin\Debug\Images\Kanji\0004.png" />
+    <Content Include="bin\Debug\Images\Kanji\0005.png" />
+    <Content Include="bin\Debug\Images\Kanji\0006.png" />
+    <Content Include="bin\Debug\Images\Kanji\0007.png" />
+    <Content Include="bin\Debug\Images\Kanji\0008.png" />
+    <Content Include="bin\Debug\Images\Kanji\0009.png" />
+    <Content Include="bin\Debug\Images\Kanji\0010.png" />
+    <Content Include="bin\Debug\Images\Kanji\0011.png" />
+    <Content Include="bin\Debug\Images\Kanji\0012.png" />
+    <Content Include="bin\Debug\Images\Kanji\0013.png" />
+    <Content Include="bin\Debug\Images\Kanji\0014.png" />
+    <Content Include="bin\Debug\Images\Kanji\0015.png" />
+    <Content Include="bin\Debug\Images\Kanji\0016.png" />
+    <Content Include="bin\Debug\Images\Kanji\0017.png" />
+    <Content Include="bin\Debug\Images\Kanji\0018.png" />
+    <Content Include="bin\Debug\Images\Kanji\0019.png" />
+    <Content Include="bin\Debug\Images\Kanji\0020.png" />
+    <Content Include="bin\Debug\Images\Kanji\0021.png" />
+    <Content Include="bin\Debug\Images\Kanji\0022.png" />
+    <Content Include="bin\Debug\Images\Kanji\0023.png" />
+    <Content Include="bin\Debug\Images\Kanji\0024.png" />
+    <Content Include="bin\Debug\Images\Kanji\0025.png" />
+    <Content Include="bin\Debug\Images\Kanji\0026.png" />
+    <Content Include="bin\Debug\Images\Kanji\0027.png" />
+    <Content Include="bin\Debug\Images\Kanji\0028.png" />
+    <Content Include="bin\Debug\Images\Kanji\0029.png" />
+    <Content Include="bin\Debug\Images\Kanji\0030.png" />
+    <Content Include="bin\Debug\Images\Kanji\0031.png" />
+    <Content Include="bin\Debug\Images\Kanji\0032.png" />
+    <Content Include="bin\Debug\Images\Kanji\0033.png" />
+    <Content Include="bin\Debug\Images\Kanji\0034.png" />
+    <Content Include="bin\Debug\Images\Kanji\0035.png" />
+    <Content Include="bin\Debug\Images\Kanji\0036.png" />
+    <Content Include="bin\Debug\Images\Kanji\0037.png" />
+    <Content Include="bin\Debug\Images\Kanji\0038.png" />
+    <Content Include="bin\Debug\Images\Kanji\0039.png" />
+    <Content Include="bin\Debug\Images\Kanji\0040.png" />
+    <Content Include="bin\Debug\Images\Kanji\0041.png" />
+    <Content Include="bin\Debug\Images\Kanji\0042.png" />
+    <Content Include="bin\Debug\Images\Kanji\0043.png" />
+    <Content Include="bin\Debug\Images\Kanji\0044.png" />
+    <Content Include="bin\Debug\Images\Kanji\0045.png" />
+    <Content Include="bin\Debug\Images\Kanji\0046.png" />
+    <Content Include="bin\Debug\Images\Kanji\0047.png" />
+    <Content Include="bin\Debug\Images\Kanji\0048.png" />
+    <Content Include="bin\Debug\Images\Kanji\0049.png" />
+    <Content Include="bin\Debug\Images\Kanji\0050.png" />
+    <Content Include="bin\Debug\Images\Kanji\0051.png" />
+    <Content Include="bin\Debug\Images\Kanji\0052.png" />
+    <Content Include="bin\Debug\Images\Kanji\0053.png" />
+    <Content Include="bin\Debug\Images\Kanji\0054.png" />
+    <Content Include="bin\Debug\Images\Kanji\0055.png" />
+    <Content Include="bin\Debug\Images\Kanji\0056.png" />
+    <Content Include="bin\Debug\Images\Kanji\0057.png" />
+    <Content Include="bin\Debug\Images\Kanji\0058.png" />
+    <Content Include="bin\Debug\Images\Kanji\0059.png" />
+    <Content Include="bin\Debug\Images\Kanji\0060.png" />
+    <Content Include="bin\Debug\Images\Kanji\0061.png" />
+    <Content Include="bin\Debug\Images\Kanji\0062.png" />
+    <Content Include="bin\Debug\Images\Kanji\0063.png" />
+    <Content Include="bin\Debug\Images\Kanji\0064.png" />
+    <Content Include="bin\Debug\Images\Kanji\0065.png" />
+    <Content Include="bin\Debug\Images\Kanji\0066.png" />
+    <Content Include="bin\Debug\Images\Kanji\0067.png" />
+    <Content Include="bin\Debug\Images\Kanji\0068.png" />
+    <Content Include="bin\Debug\Images\Kanji\0069.png" />
+    <Content Include="bin\Debug\Images\Kanji\0070.png" />
+    <Content Include="bin\Debug\Images\Kanji\0071.png" />
+    <Content Include="bin\Debug\Images\Kanji\0072.png" />
+    <Content Include="bin\Debug\Images\Kanji\0073.png" />
+    <Content Include="bin\Debug\Images\Kanji\0074.png" />
+    <Content Include="bin\Debug\Images\Kanji\0075.png" />
+    <Content Include="bin\Debug\Images\Kanji\0076.png" />
+    <Content Include="bin\Debug\Images\Kanji\0077.png" />
+    <Content Include="bin\Debug\Images\Kanji\0078.png" />
+    <Content Include="bin\Debug\Images\Kanji\0079.png" />
+    <Content Include="bin\Debug\Images\Kanji\0080.png" />
+    <Content Include="bin\Debug\Images\Kanji\0081.png" />
+    <Content Include="bin\Debug\Images\Kanji\0082.png" />
+    <Content Include="bin\Debug\Images\Kanji\0083.png" />
+    <Content Include="bin\Debug\Images\Kanji\0084.png" />
+    <Content Include="bin\Debug\Images\Kanji\0085.png" />
+    <Content Include="bin\Debug\Images\Kanji\0086.png" />
+    <Content Include="bin\Debug\Images\Kanji\0087.png" />
+    <Content Include="bin\Debug\Images\Kanji\0088.png" />
+    <Content Include="bin\Debug\Images\Kanji\0089.png" />
+    <Content Include="bin\Debug\Images\Kanji\0090.png" />
+    <Content Include="bin\Debug\Images\Kanji\0091.png" />
+    <Content Include="bin\Debug\Images\Kanji\0092.png" />
+    <Content Include="bin\Debug\Images\Kanji\0093.png" />
+    <Content Include="bin\Debug\Images\Kanji\0094.png" />
+    <Content Include="bin\Debug\Images\Kanji\0095.png" />
+    <Content Include="bin\Debug\Images\Kanji\0096.png" />
+    <Content Include="bin\Debug\Images\Kanji\0097.png" />
+    <Content Include="bin\Debug\Images\Kanji\0098.png" />
+    <Content Include="bin\Debug\Images\Kanji\0099.png" />
+    <Content Include="bin\Debug\Images\Kanji\0100.png" />
+    <Content Include="bin\Debug\Images\Kanji\0101.png" />
+    <Content Include="bin\Debug\Images\Kanji\0102.png" />
+    <Content Include="bin\Debug\Images\Kanji\0103.png" />
+    <Content Include="bin\Debug\Images\Kanji\0104.png" />
+    <Content Include="bin\Debug\Images\Kanji\0105.png" />
+    <Content Include="bin\Debug\Images\Kanji\0106.png" />
+    <Content Include="bin\Debug\Images\Kanji\0107.png" />
+    <Content Include="bin\Debug\Images\Kanji\0108.png" />
+    <Content Include="bin\Debug\Images\Kanji\0109.png" />
+    <Content Include="bin\Debug\Images\Kanji\0110.png" />
+    <Content Include="bin\Debug\Images\Kanji\0111.png" />
+    <Content Include="bin\Debug\Images\Kanji\0112.png" />
+    <Content Include="bin\Debug\Images\Kanji\0113.png" />
+    <Content Include="bin\Debug\Images\Kanji\0114.png" />
+    <Content Include="bin\Debug\Images\Kanji\0115.png" />
+    <Content Include="bin\Debug\Images\Kanji\0116.png" />
+    <Content Include="bin\Debug\Images\Kanji\0117.png" />
+    <Content Include="bin\Debug\Images\Kanji\0118.png" />
+    <Content Include="bin\Debug\Images\Kanji\0119.png" />
+    <Content Include="bin\Debug\Images\Kanji\kanji_ayıklama.py" />
+    <Content Include="bin\Debug\Images\Kanji\MAIN.png" />
+    <Content Include="bin\Debug\Images\Untitled.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Accord.3.8.0\build\Accord.targets" Condition="Exists('..\packages\Accord.3.8.0\build\Accord.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Accord.3.8.0\build\Accord.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Accord.3.8.0\build\Accord.targets'))" />
+  </Target>
+</Project>
